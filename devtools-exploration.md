@@ -1,7 +1,5 @@
 # DevTools Exploration
-
 ---
-
 ## Website 1: Example Domain
 
 **Link:** https://example.com
@@ -83,14 +81,6 @@ It has four radio-button choices:
 -   `x -> 5`
 
 There is also a **Submit Answer** button.
-
-### 3. Screenshot of the Elements panel
-
-This is my screenshot showing the W3Schools page and the selected
-`<form>` element in DevTools.
-
-![W3Schools Elements panel
-screenshot](website-3-devtools-screenshot.png)
 
 ------------------------------------------------------------------------
 
