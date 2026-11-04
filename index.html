@@ -1,18 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaniz Ann Mumbua - About Me</title>
+
+    <meta
+        name="description"
+        content="Learn more about Shaniz Ann Mumbua, a programming student at WeCan Academy interested in web development, backend development, and cybersecurity."
+    >
+
+    <title>About Me | Shaniz Ann Mumbua</title>
 </head>
+
 <body>
+
     <header>
         <h1>Hi, I'm Shaniz Ann Mumbua</h1>
+        <p>Programming Student | Future Web Developer</p>
     </header>
 
     <main>
-        <section>
-            <h2>About Me</h2>
+
+        <section aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+
+            <figure>
+                <img
+                    src="./images/photo.jpg"
+                    alt="Portrait of Shaniz Ann Mumbua"
+                    width="300"
+                    height="400"
+                >
+                <figcaption>That's me!</figcaption>
+            </figure>
 
             <p>
                 I'm a programming student at WeCan Academy. I'm learning how
@@ -20,11 +41,11 @@
                 development, backend development, and cybersecurity.
                 I enjoy learning new things and improving my coding skills.
             </p>
-            <img src="./images/photo.jpg" alt="My profile picture" width="300" height="400">
         </section>
 
-        <section>
-            <h2>My Hobbies and Interests</h2>
+        <section aria-labelledby="interests-heading">
+            <h2 id="interests-heading">My Hobbies and Interests</h2>
+
             <ul>
                 <li>Learning web development and coding</li>
                 <li>Exploring technology and cybersecurity</li>
@@ -32,27 +53,41 @@
             </ul>
         </section>
 
-        <section>
-            <h2>My Favorite Website</h2>
+        <section aria-labelledby="website-heading">
+            <h2 id="website-heading">My Favorite Website</h2>
+
             <p>
                 I enjoy visiting
-                <a href="https://github.com/" target="_blank">
+                <a
+                    href="https://github.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit GitHub, opens in a new tab"
+                >
                     GitHub
                 </a>
                 to explore projects and learn from other developers.
             </p>
         </section>
 
-        <section>
-            <h2>Contact Me</h2>
+        <section aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Me</h2>
 
-            <p>
-                Email:
-                <a href="mailto:shanizannmumbua@gmail.com">
-                    shanizannmumbua@gmail.com
-                </a>
-            </p>
+            <address>
+                <p>
+                    Email:
+                    <a href="mailto:shanizannmumbua@gmail.com">
+                        shanizannmumbua@gmail.com
+                    </a>
+                </p>
+            </address>
         </section>
+
     </main>
+
+    <footer>
+        <p>&copy; 2026 Shaniz Ann Mumbua. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
