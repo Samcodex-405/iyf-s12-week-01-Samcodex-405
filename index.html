@@ -4,88 +4,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta
-        name="description"
-        content="Learn more about Shaniz Ann Mumbua, a programming student at WeCan Academy interested in web development, backend development, and cybersecurity."
-    >
-
-    <title>About Me | Shaniz Ann Mumbua</title>
+    <meta name="description" content="Welcome to the personal portfolio of Shaniz Ann Mumbua, a programming student at WeCan Academy.">
+    <title>Home | Shaniz Ann Mumbua</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <header>
-        <h1>Hi, I'm Shaniz Ann Mumbua</h1>
-        <p>Programming Student | Future Web Developer</p>
+    <header class="site-header">
+        <a class="logo" href="index.html">Shaniz.</a>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
+        <section class="hero">
+            <p>Hello, welcome to my portfolio!</p>
 
-        <section aria-labelledby="about-heading">
-            <h2 id="about-heading">About Me</h2>
+            <h1>I'm Shaniz Ann Mumbua.</h1>
 
-            <figure>
-                <img
-                    src="./images/photo.jpg"
-                    alt="Portrait of Shaniz Ann Mumbua"
-                    width="300"
-                    height="400"
-                >
-                <figcaption>That's me!</figcaption>
-            </figure>
+            <p class="tagline">
+                Programming Student | Future Web Developer
+            </p>
 
             <p>
-                I'm a programming student at WeCan Academy. I'm learning how
-                to build websites and applications. I'm interested in web
-                development, backend development, and cybersecurity.
-                I enjoy learning new things and improving my coding skills.
+                I'm learning to turn ideas into useful digital experiences
+                through code. I'm interested in web development, backend
+                development, and cybersecurity.
             </p>
+
+            <a class="button" href="projects.html">Explore My Projects</a>
+            <a class="button" href="contact.html">Get In Touch</a>
         </section>
 
-        <section aria-labelledby="interests-heading">
-            <h2 id="interests-heading">My Hobbies and Interests</h2>
-
-            <ul>
-                <li>Learning web development and coding</li>
-                <li>Exploring technology and cybersecurity</li>
-                <li>Building projects and solving problems</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="website-heading">
-            <h2 id="website-heading">My Favorite Website</h2>
+        <section aria-labelledby="welcome-heading">
+            <h2 id="welcome-heading">A Little About Me</h2>
 
             <p>
-                I enjoy visiting
-                <a
-                    href="https://github.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Visit GitHub, opens in a new tab"
-                >
-                    GitHub
-                </a>
-                to explore projects and learn from other developers.
+                I'm a programming student at WeCan Academy, where I'm
+                developing my skills in building websites and applications.
+                I enjoy learning new technologies, solving problems, and
+                challenging myself through practical projects.
             </p>
+
+            <p>
+                This portfolio is a place to document my learning journey,
+                share my projects, and connect with other people in tech.
+            </p>
+
+            <a href="about.html">Read more about me</a>
         </section>
 
-        <section aria-labelledby="contact-heading">
-            <h2 id="contact-heading">Contact Me</h2>
+        <section aria-labelledby="explore-heading">
+            <h2 id="explore-heading">Explore My Portfolio</h2>
 
-            <address>
-                <p>
-                    Email:
-                    <a href="mailto:shanizannmumbua@gmail.com">
-                        shanizannmumbua@gmail.com
-                    </a>
-                </p>
-            </address>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>About Me</h3>
+                    <p>Discover my background, interests, and skills.</p>
+                    <a href="about.html">Learn about me</a>
+                </article>
+
+                <article class="card">
+                    <h3>My Projects</h3>
+                    <p>Explore the projects I'm building as I learn.</p>
+                    <a href="projects.html">View my projects</a>
+                </article>
+
+                <article class="card">
+                    <h3>Contact Me</h3>
+                    <p>Have a question or want to connect? Get in touch.</p>
+                    <a href="contact.html">Contact me</a>
+                </article>
+            </div>
         </section>
-
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <p>&copy; 2026 Shaniz Ann Mumbua. All rights reserved.</p>
     </footer>
 
